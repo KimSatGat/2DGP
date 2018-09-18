@@ -121,7 +121,23 @@ def Move6to7():
         get_events()
 
 def Move7to8():
-    pass
+    x = 510
+    y = 92
+    moveX = (692 - x) / 20
+    moveY = (518 - y) / 20
+    cnt = 0
+    frame = 0
+    while (cnt < 20):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 100, 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 8
+        x += moveX
+        y += moveY
+        cnt = cnt + 1
+        delay(0.05)
+        get_events()
 
 def Move8to9():
     pass
@@ -139,8 +155,8 @@ def MoveCheckPoint():
     #Move3to4()
     #Move4to5()
     #Move5to6()
-    Move6to7()
-    #Move7to8()
+    #Move6to7()
+    Move7to8()
     #Move8to9()
     #Move9to10()
     #Move10to1()
