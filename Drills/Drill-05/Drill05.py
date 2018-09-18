@@ -5,7 +5,6 @@ open_canvas()
 grass = load_image('grass.png')
 character = load_image('animation_sheet.png')
 
-
 def Move1to2():
     x = 203
     y = 535
@@ -198,15 +197,15 @@ def Move10to1():
 
 
 def MoveCheckPoint():
-    #Move1to2()
-    #Move2to3()
-    #Move3to4()
-    #Move4to5()
-    #Move5to6()
-    #Move6to7()
-    #Move7to8()
-    #Move8to9()
-    #Move9to10()
+    Move1to2()
+    Move2to3()
+    Move3to4()
+    Move4to5()
+    Move5to6()
+    Move6to7()
+    Move7to8()
+    Move8to9()
+    Move9to10()
     Move10to1()
 
 
