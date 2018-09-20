@@ -8,6 +8,7 @@ def handle_events():
     global  mouseX, mouseY
     global  x, y
     global  dir
+    global  frame
 
     events = get_events()
     for event in events:
@@ -18,6 +19,18 @@ def handle_events():
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             running = False
 
+def Idle_Right():
+        global frame
+        global x, y
+        character.clip_draw(frame * 100, 100 * 3, 100, 100, x, y)
+        frame = (frame + 1) % 8
+
+
+def Idle_Left():
+    global frame
+    global x, y
+    character.clip_draw(frame * 100, 100 * 2, 100, 100, x, y)
+    frame = (frame + 1) % 8
 
 
 open_canvas(KPU_WIDTH, KPU_HEIGHT)
@@ -35,13 +48,14 @@ while running:
     clear_canvas()
     kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
     mouse.draw(mouseX, mouseY)
+    Idle_Left()
     update_canvas()
 
 
-    frame = (frame + 1) % 8
 
     delay(0.02)
     handle_events()
+
 
 close_canvas()
 
