@@ -15,7 +15,7 @@ def handle_events():
         if event.type == SDL_QUIT:
             running = False
         elif event.type == SDL_MOUSEMOTION:
-            mouseX, mouseY = event.x, KPU_HEIGHT - 1 - event.y
+            mouseX, mouseY = event.x - 30, KPU_HEIGHT - 1 - event.y
         elif event.type == SDL_MOUSEBUTTONDOWN:
             if(SDL_BUTTON_LEFT):
                 Move()
