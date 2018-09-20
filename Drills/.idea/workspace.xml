@@ -39,51 +39,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="2913" />
+          <entry key="py" value="3239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2913" />
+          <entry key="Python" value="3239" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#677#938#0" />
-                <element signature="e#1090#1349#0" />
-                <element signature="e#1501#1762#0" />
-                <element signature="e#1914#2173#0" />
-                <element signature="e#2324#2585#0" />
-                <element signature="e#2607#2997#0" />
-                <element signature="e#3149#3408#0" />
-                <element signature="e#3561#3822#0" />
-                <element signature="e#3975#4234#0" />
-                <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Drill-06/character_runs_esc.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,13 +85,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="e#677#938#0" />
+                <element signature="e#1090#1349#0" />
+                <element signature="e#1501#1762#0" />
+                <element signature="e#1914#2173#0" />
+                <element signature="e#2324#2585#0" />
+                <element signature="e#2607#2997#0" />
+                <element signature="e#3149#3408#0" />
+                <element signature="e#3561#3822#0" />
+                <element signature="e#3975#4234#0" />
+                <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
+                <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
+                <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
+                <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
+                <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
+                <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
+                <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Drill-06/Drill06.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <marker date="1537436794748" expanded="true" signature="556:799" ph="..." />
+                <marker date="1537438193109" expanded="true" signature="857:2005" ph="..." />
               </folding>
             </state>
           </provider>
@@ -197,6 +197,11 @@
             <path>
               <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drills" type="462c0819:PsiDirectoryNode" />
+              <item name="Drill-05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
@@ -408,36 +413,6 @@
     <entry file="file://$USER_HOME$/Desktop/2011182060-2dgp/drill-05/drii05.py" />
     <entry file="file://$PROJECT_DIR$/Drill-05/test2.py" />
     <entry file="file://$PROJECT_DIR$/Test.py" />
-    <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#677#938#0" />
-            <element signature="e#1090#1349#0" />
-            <element signature="e#1501#1762#0" />
-            <element signature="e#1914#2173#0" />
-            <element signature="e#2324#2585#0" />
-            <element signature="e#2607#2997#0" />
-            <element signature="e#3149#3408#0" />
-            <element signature="e#3561#3822#0" />
-            <element signature="e#3975#4234#0" />
-            <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Drill-06/character_runs_esc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -468,12 +443,42 @@
     <entry file="file://$PROJECT_DIR$/Drill-06/animation_sheet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#677#938#0" />
+            <element signature="e#1090#1349#0" />
+            <element signature="e#1501#1762#0" />
+            <element signature="e#1914#2173#0" />
+            <element signature="e#2324#2585#0" />
+            <element signature="e#2607#2997#0" />
+            <element signature="e#3149#3408#0" />
+            <element signature="e#3561#3822#0" />
+            <element signature="e#3975#4234#0" />
+            <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
+            <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
+            <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
+            <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
+            <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
+            <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
+            <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Drill-06/Drill06.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <marker date="1537436794748" expanded="true" signature="556:799" ph="..." />
+            <marker date="1537438193109" expanded="true" signature="857:2005" ph="..." />
           </folding>
         </state>
       </provider>
