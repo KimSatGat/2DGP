@@ -16,8 +16,9 @@ def handle_events():
             running = False
         elif event.type == SDL_MOUSEMOTION:
             mouseX, mouseY = event.x, KPU_HEIGHT - 1 - event.y
-        elif SDL_BUTTON_LEFT:
-            Move()
+        elif event.type == SDL_MOUSEBUTTONDOWN:
+            if(SDL_BUTTON_LEFT):
+                Move()
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             running = False
 
@@ -57,6 +58,7 @@ def Move():
             y += moveY
             cnt = cnt + 1
             delay(0.05)
+            handle_events()
     else:
         moveX = (mouseX - x) / 20
         moveY = (mouseY - y) / 20
