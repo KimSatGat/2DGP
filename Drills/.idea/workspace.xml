@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Drill-07/line.py" line="74" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05382ef0-def7-48ae-88c1-966da2583b26" name="Default Changelist" comment="" />
+    <list default="true" id="05382ef0-def7-48ae-88c1-966da2583b26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,124 +17,72 @@
     <session id="-35063743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="2" />
-          <entry key="py" value="12" />
+          <entry key="png" value="3" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
-          <entry key="Python" value="12" />
+          <entry key="Image" value="3" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="171" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="3268" />
+          <entry key="py" value="5882" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3268" />
+          <entry key="Python" value="6053" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-06/character_runs_esc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <marker date="1537433284909" expanded="true" signature="169:403" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-06/move_character_with_key.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <marker date="1537434856833" expanded="true" signature="666:926" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-06/move_character_with_mouse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#677#938#0" />
-                <element signature="e#1090#1349#0" />
-                <element signature="e#1501#1762#0" />
-                <element signature="e#1914#2173#0" />
-                <element signature="e#2324#2585#0" />
-                <element signature="e#2607#2997#0" />
-                <element signature="e#3149#3408#0" />
-                <element signature="e#3561#3822#0" />
-                <element signature="e#3975#4234#0" />
-                <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
-                <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
-                <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Drill-06/Drill06.py">
+        <entry file="file://$PROJECT_DIR$/Drill-07/Drill07.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <marker date="1537438487396" expanded="true" signature="917:2093" ph="..." />
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1538473512623" expanded="true" signature="430:440" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-06/animation_sheet.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/Drill-07/line.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1538472542034" expanded="true" signature="991:1247" ph="..." />
+                <marker date="1538472542034" expanded="true" signature="1269:1466" ph="..." />
+                <marker date="1538472542034" expanded="true" signature="1269:1467" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -140,6 +93,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>draw_line_basic</find>
+      <find>prepare_turtle_canvas</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -156,6 +115,9 @@
         <option value="$PROJECT_DIR$/Drill-06/move_character_with_key.py" />
         <option value="$PROJECT_DIR$/Drill-06/move_character_with_mouse.py" />
         <option value="$PROJECT_DIR$/Drill-06/Drill06.py" />
+        <option value="$PROJECT_DIR$/Drill-07/test.py" />
+        <option value="$PROJECT_DIR$/Drill-07/line.py" />
+        <option value="$PROJECT_DIR$/Drill-07/Drill07.py" />
       </list>
     </option>
   </component>
@@ -189,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,18 +162,12 @@
             <path>
               <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drills" type="462c0819:PsiDirectoryNode" />
-              <item name="Drill-05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drills" type="462c0819:PsiDirectoryNode" />
-              <item name="Drill-06" type="462c0819:PsiDirectoryNode" />
+              <item name="Drill-07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Drill06">
+  <component name="RunManager" selected="Python.Drill07">
     <configuration name="Drill06" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="character_runs_esc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Drill07" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-06/character_runs_esc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-07/Drill07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="move_character_with_key" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="line" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-06/move_character_with_key.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-07/line.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +275,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,11 +283,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-05/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-07/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,19 +297,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test2" />
-      <item itemvalue="Python.character_runs_esc" />
-      <item itemvalue="Python.move_character_with_key" />
       <item itemvalue="Python.move_character_with_mouse" />
       <item itemvalue="Python.Drill06" />
+      <item itemvalue="Python.line" />
+      <item itemvalue="Python.Drill07" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Drill07" />
+        <item itemvalue="Python.line" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Drill06" />
         <item itemvalue="Python.move_character_with_mouse" />
-        <item itemvalue="Python.move_character_with_key" />
-        <item itemvalue="Python.character_runs_esc" />
-        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -371,17 +328,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14474554" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20489095" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3309659" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -390,6 +348,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.5967742" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3224432" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -412,21 +389,22 @@
     <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$PROJECT_DIR$/Drill-06/character_runs_esc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1537433284909" expanded="true" signature="169:403" ph="..." />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="20" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drill-06/move_character_with_key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <marker date="1537434856833" expanded="true" signature="666:926" ph="..." />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -440,42 +418,65 @@
     <entry file="file://$PROJECT_DIR$/Drill-06/animation_sheet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Drill-05/Drill05.py">
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pico2d/pico2d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-07/animation_sheet.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-07/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#677#938#0" />
-            <element signature="e#1090#1349#0" />
-            <element signature="e#1501#1762#0" />
-            <element signature="e#1914#2173#0" />
-            <element signature="e#2324#2585#0" />
-            <element signature="e#2607#2997#0" />
-            <element signature="e#3149#3408#0" />
-            <element signature="e#3561#3822#0" />
-            <element signature="e#3975#4234#0" />
-            <marker date="1537264449212" expanded="true" signature="131:527" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="542:940" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="955:1351" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="1366:1764" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="1779:2175" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="2190:2587" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="2602:2999" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="3014:3410" ph="..." />
-            <marker date="1537264449212" expanded="false" signature="3426:3824" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="3840:4237" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="4258:4263" ph="..." />
-            <marker date="1537264449212" expanded="true" signature="4258:4413" ph="..." />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-07/curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drill-06/Drill06.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="513">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="65" />
           <folding>
             <marker date="1537438487396" expanded="true" signature="917:2093" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-07/line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1538472542034" expanded="true" signature="991:1247" ph="..." />
+            <marker date="1538472542034" expanded="true" signature="1269:1466" ph="..." />
+            <marker date="1538472542034" expanded="true" signature="1269:1467" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-07/Drill07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1538473512623" expanded="true" signature="430:440" ph="..." />
           </folding>
         </state>
       </provider>
