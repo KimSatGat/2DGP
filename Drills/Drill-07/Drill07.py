@@ -12,7 +12,15 @@ dir = 0         #방향
 points = [(random.randint(0, 1280), random.randint(0, 1024)) for i in range(pointNumber)]
 
 def handle_events():
-    pass
+    global  running
+
+    events = get_events()
+    for event in events:
+        if event.type == SDL_QUIT:
+            running = False
+        elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
+            running = False
+
 def MoveRandomPoints(p1, p2):
     pass
 def DetermineDirection(p1,p2):
