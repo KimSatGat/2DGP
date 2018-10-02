@@ -5,7 +5,7 @@ open_canvas(KPU_WIDTH, KPU_HEIGHT)
 kpu_ground = load_image('KPU_GROUND.png')
 character = load_image('animation_sheet.png')
 running = True
-pointNumber = 10
+pointNumber = 20
 nextPoint = 1
 frame = 0       #프레임
 dir = 0         #방향
