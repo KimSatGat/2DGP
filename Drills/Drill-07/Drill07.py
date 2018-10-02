@@ -24,7 +24,11 @@ def handle_events():
 def MoveRandomPoints(p1, p2):
     pass
 def DetermineDirection(p1,p2):
-    pass
+    global dir
+    if(p2[0] > p1[0]):
+        dir = 1
+    else:
+        dir = -1
 
 def MoveAnimation(characterX, characterY):
     pass
