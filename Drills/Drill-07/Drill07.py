@@ -22,7 +22,7 @@ def handle_events():
 
 def MoveRandomPoints(p1, p2):
     DetermineDirection(p1, p2)
-    for i in range(0, 100 + 1, 1):
+    for i in range(0, 100 + 1, 2):
         clear_canvas()
         kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
         t = i / 100
@@ -41,16 +41,17 @@ def MoveAnimation(characterX, characterY):
     if (dir == 1):
         character.clip_draw(frame * 100, 100, 100, 100, characterX, characterY)
         update_canvas()
+        handle_events()
         delay(0.02)
         frame = (frame + 1) % 8
     else:
         character.clip_draw(frame * 100, 0, 100, 100, characterX, characterY)
         update_canvas()
+        handle_events()
         delay(0.02)
         frame = (frame + 1) % 8
 
 while running:
-    handle_events()
     MoveRandomPoints(points[nextPoint-1], points[nextPoint])
     nextPoint = (nextPoint + 1) % pointNumber
 
