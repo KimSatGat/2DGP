@@ -21,7 +21,15 @@ def handle_events():
             running = False
 
 def MoveRandomPoints(p1, p2):
-    pass
+    DetermineDirection(p1, p2)
+    for i in range(0, 100 + 1, 1):
+        clear_canvas()
+        kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
+        t = i / 100
+        characterX = (1 - t) * p1[0] + t * p2[0]
+        characterY = (1 - t) * p1[1] + t * p2[1]
+
+        MoveAnimation(characterX, characterY)
 def DetermineDirection(p1,p2):
     global dir
     if (p2[0] - p1[0] > 0):
