@@ -12,8 +12,7 @@ dir = 0         #방향
 points = [(random.randint(0, 1280), random.randint(0, 1024)) for i in range(pointNumber)]
 
 def handle_events():
-    global  running
-
+    global running
     events = get_events()
     for event in events:
         if event.type == SDL_QUIT:
@@ -25,13 +24,22 @@ def MoveRandomPoints(p1, p2):
     pass
 def DetermineDirection(p1,p2):
     global dir
-    if(p2[0] > p1[0]):
+    if (p2[0] - p1[0] > 0):
         dir = 1
     else:
         dir = -1
-
 def MoveAnimation(characterX, characterY):
-    pass
+    global frame
+    if (dir == 1):
+        character.clip_draw(frame * 100, 100, 100, 100, characterX, characterY)
+        update_canvas()
+        delay(0.02)
+        frame = (frame + 1) % 8
+    else:
+        character.clip_draw(frame * 100, 0, 100, 100, characterX, characterY)
+        update_canvas()
+        delay(0.02)
+        frame = (frame + 1) % 8
 
 while running:
     handle_events()
