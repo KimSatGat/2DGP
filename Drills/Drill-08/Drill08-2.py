@@ -6,9 +6,10 @@ kpu_ground = load_image('KPU_GROUND.png')
 character = load_image('animation_sheet.png')
 running = True
 pointNumber = 10    #목적지 개수
-nextPoint = 1   #목적지 인덱스
+nextPoint = 1       #목적지 인덱스
 frame = 0       #프레임
 dir = 0         #방향
+countTump = 0
 points = [(random.randint(0, 1280), random.randint(0, 1024)) for i in range(pointNumber)]
 
 def handle_events():
@@ -20,9 +21,19 @@ def handle_events():
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             running = False
 
-def MoveRandomPoints(p1, p2):
-    DetermineDirection(p1, p2)
-    pass
+
+def MoveRandomPoints(p1, p2, p3, p4):
+    DetermineDirection(p2,p3)
+    for i in range(0, 100 + 1, 2):
+        clear_canvas()
+        kpu_ground.draw(KPU_WIDTH // 2 , KPU_HEIGHT // 2)
+        t = i / 100
+        characterX = ( (-t**3 + 2*t**2 - t) * p1[0] + (3*t**3 - 5*t**2 + 2) * p2[0] + (-3*t**3 + 4*t**2 + t) * p3[0] + (t**3 - t**2) * p4[0] ) / 2
+        characterY = ( (-t**3 + 2*t**2 - t) * p1[1] + (3*t**3 - 5*t**2 + 2) * p2[1] + (-3*t**3 + 4*t**2 + t) * p3[1] + (t**3 - t**2) * p4[1] ) / 2
+        
+        MoveAnimation(characterX, characterY)
+
+
 def DetermineDirection(p1,p2):
     global dir
     if (p2[0] - p1[0] > 0):
@@ -45,6 +56,9 @@ def MoveAnimation(characterX, characterY):
         frame = (frame + 1) % 8
 
 while running:
-
-
+    if(nextPoint == 9):
+        MoveRandomPoints(points[nextPoint-2], points[nextPoint-1], points[nextPoint], points[0])
+        nextPoint = (nextPoint + 1) % pointNumber
+    MoveRandomPoints(points[nextPoint-2], points[nextPoint-1], points[nextPoint], points[nextPoint+1])
+    nextPoint = (nextPoint + 1) % pointNumber
 close_canvas()
