@@ -23,17 +23,26 @@ def handle_events():
 
 
 def MoveRandomPoints(p1, p2, p3, p4):
+    global  countTump
     DetermineDirection(p2,p3)
     for i in range(0, 100 + 1, 2):
         clear_canvas()
         kpu_ground.draw(KPU_WIDTH // 2 , KPU_HEIGHT // 2)
+        myTump()
         t = i / 100
         characterX = ( (-t**3 + 2*t**2 - t) * p1[0] + (3*t**3 - 5*t**2 + 2) * p2[0] + (-3*t**3 + 4*t**2 + t) * p3[0] + (t**3 - t**2) * p4[0] ) / 2
         characterY = ( (-t**3 + 2*t**2 - t) * p1[1] + (3*t**3 - 5*t**2 + 2) * p2[1] + (-3*t**3 + 4*t**2 + t) * p3[1] + (t**3 - t**2) * p4[1] ) / 2
-        
+
         MoveAnimation(characterX, characterY)
 
 
+def myTump():
+    global  countTump
+    if (countTump > 9):
+        countTump = 9
+    for j in range(0,countTump + 1):
+        positon = points[j]
+        character.clip_draw(100, 100, 100, 100, positon[0], positon[1])
 def DetermineDirection(p1,p2):
     global dir
     if (p2[0] - p1[0] > 0):
@@ -61,4 +70,5 @@ while running:
         nextPoint = (nextPoint + 1) % pointNumber
     MoveRandomPoints(points[nextPoint-2], points[nextPoint-1], points[nextPoint], points[nextPoint+1])
     nextPoint = (nextPoint + 1) % pointNumber
+    countTump = countTump + 1
 close_canvas()
