@@ -72,12 +72,22 @@ while running:
 
     for boy in team:
         boy.update()
+    for smallBall in smallBalls:
+        smallBall.update()
+    for bigBall in bigBalls:
+        bigBall.update()
 
     clear_canvas()
     grass.draw()
 
     for boy in team:
         boy.draw()
+    for boy in team:
+        boy.draw()
+    for smallBall in smallBalls:
+        smallBall.draw()
+    for bigBall in bigBalls:
+        bigBall.draw()
     update_canvas()
 
     delay(0.05)
