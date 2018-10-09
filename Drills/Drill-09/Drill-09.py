@@ -2,9 +2,17 @@ from pico2d import *
 import random
 
 class smallBall:
+
     def __init__(self):
-        self.x, self.y = random.randint(0, 799), 599
         self.image = load_image('ball21x21.png')
+        self.x, self.y = random.randint(0 + 25, 599), 600 - 25
+        self.speed = random.randrange(1, 10)
+    def draw(self):
+        self.image.draw(self.x, self.y)
+
+    def update(self):
+        if (self.y > 55):
+            self.y -= self.speed
 class bigBall:
     pass
 
