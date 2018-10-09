@@ -56,8 +56,13 @@ def handle_events():
 # initialization code
 open_canvas()
 
+smallBall_number = random.randrange(1, 20)
+bigBall_number = 20 - smallBall_number
+
 team = [Boy() for i in range(11)]
 grass = Grass()
+smallBalls = [smallBall() for i in range(smallBall_number)]
+bigBalls = [bigBall() for i in range(bigBall_number)]
 
 running = True
 
