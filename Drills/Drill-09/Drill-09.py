@@ -6,7 +6,7 @@ class smallBall:
     def __init__(self):
         self.image = load_image('ball21x21.png')
         self.x, self.y = random.randint(0 + 25, 800), 599
-        self.speed = random.randrange(1, 10)
+        self.speed = random.randrange(5, 10)
     def draw(self):
         self.image.draw(self.x, self.y)
 
@@ -17,7 +17,7 @@ class bigBall:
     def __init__(self):
         self.image = load_image('ball41x41.png')
         self.x, self.y = random.randint(0 + 40, 800), 599
-        self.speed = random.randrange(1, 10)
+        self.speed = random.randrange(5, 10)
 
     def draw(self):
         self.image.draw(self.x, self.y)
