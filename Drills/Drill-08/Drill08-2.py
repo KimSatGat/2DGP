@@ -38,8 +38,8 @@ def MoveRandomPoints(p1, p2, p3, p4):
 
 def myTump():
     global  countTump
-    if (countTump > 9):
-        countTump = 9
+    if (countTump > 10):
+        countTump = 10
     for j in range(0,countTump + 1):
         positon = points[j]
         character.clip_draw(100, 100, 100, 100, positon[0], positon[1])

@@ -15,42 +15,44 @@
     <session id="-35063743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="3" />
-          <entry key="py" value="30" />
+          <entry key="png" value="6" />
+          <entry key="py" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="Python" value="30" />
+          <entry key="Image" value="6" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="171" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="7410" />
+          <entry key="py" value="9123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="7581" />
+          <entry key="Python" value="9294" />
         </counts>
       </usages-collector>
     </session>
@@ -58,38 +60,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Drill-08/Drill08-2.py">
+        <entry file="file://$PROJECT_DIR$/Drill-09/Drill-09.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+            <state relative-caret-position="283">
+              <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <marker date="1538647652100" expanded="true" signature="1285:1469" ph="..." />
-                <marker date="1538647652100" expanded="true" signature="1499:1504" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-08/curve.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="105" lean-forward="true" selection-end-line="106" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drill-08/Drill08-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1539077867624" expanded="true" signature="52:87" ph="..." />
               </folding>
             </state>
           </provider>
@@ -132,13 +109,15 @@
         <option value="$PROJECT_DIR$/Drill-08/curve.py" />
         <option value="$PROJECT_DIR$/Drill-08/Drill08-1.py" />
         <option value="$PROJECT_DIR$/Drill-08/Drill08-2.py" />
+        <option value="$PROJECT_DIR$/Drill-09/boy_grass_object.py" />
+        <option value="$PROJECT_DIR$/Drill-09/Drill-09.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -176,12 +155,7 @@
             <path>
               <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drills" type="462c0819:PsiDirectoryNode" />
-              <item name="Drill-07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Drills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drills" type="462c0819:PsiDirectoryNode" />
-              <item name="Drill-08" type="462c0819:PsiDirectoryNode" />
+              <item name="Drill-09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,8 +183,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Drill08-2">
-    <configuration name="Drill07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Drill-09">
+    <configuration name="Drill-09" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-07/Drill07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-09/Drill-09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Drill08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="boy_grass_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,11 +255,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drill-09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-08/Drill08.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drill-09/boy_grass_object.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,19 +290,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Drill07" />
-      <item itemvalue="Python.Drill08" />
       <item itemvalue="Python.curve" />
       <item itemvalue="Python.Drill08-1" />
       <item itemvalue="Python.Drill08-2" />
+      <item itemvalue="Python.boy_grass_object" />
+      <item itemvalue="Python.Drill-09" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Drill-09" />
+        <item itemvalue="Python.boy_grass_object" />
         <item itemvalue="Python.Drill08-2" />
         <item itemvalue="Python.Drill08-1" />
         <item itemvalue="Python.curve" />
-        <item itemvalue="Python.Drill08" />
-        <item itemvalue="Python.Drill07" />
       </list>
     </recent_temporary>
   </component>
@@ -346,11 +320,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="760" y="0" width="784" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.41639128" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28781793" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -358,7 +332,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3181818" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.31232092" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -455,12 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1538472542034" expanded="true" signature="991:1247" ph="..." />
-            <marker date="1538472542034" expanded="true" signature="1269:1466" ph="..." />
-            <marker date="1538472542034" expanded="true" signature="1269:1467" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,29 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <marker date="1537438487396" expanded="true" signature="917:2093" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Drill-08/curve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="105" lean-forward="true" selection-end-line="106" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Drill-08/Drill08-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,33 +443,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="42" column="23" lean-forward="true" selection-end-line="57" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#396#621#0" />
-            <marker date="1538475039524" expanded="true" signature="621:623" ph="..." />
-            <marker date="1538475039524" expanded="true" signature="652:964" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Drill-08/Drill08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1052">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-08/Drill08.py" />
     <entry file="file://$PROJECT_DIR$/Drill-08/Drill08-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="295">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-08/curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-08/Drill08-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-09/character.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-09/ball21x21.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-09/ball41x41.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-09/boy_grass_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1538647652100" expanded="true" signature="1285:1469" ph="..." />
-            <marker date="1538647652100" expanded="true" signature="1499:1504" ph="..." />
+            <marker date="1539077549654" expanded="true" signature="171:540" ph="..." />
+            <marker date="1539077549654" expanded="true" signature="183:540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drill-09/Drill-09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1539077867624" expanded="true" signature="52:87" ph="..." />
           </folding>
         </state>
       </provider>
