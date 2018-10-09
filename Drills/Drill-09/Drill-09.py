@@ -2,7 +2,9 @@ from pico2d import *
 import random
 
 class smallBall:
-    pass
+    def __init__(self):
+        self.x, self.y = random.randint(0, 799), 599
+        self.image = load_image('ball21x21.png')
 class bigBall:
     pass
 
