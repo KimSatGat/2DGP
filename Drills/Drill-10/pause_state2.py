@@ -4,7 +4,8 @@ from pico2d import *
 
 name = "PauseSate"
 image = None
-
+isPauseImage = True
+delayTime = 0
 def enter():
     global image
     image = load_image('pause2.png')
@@ -14,14 +15,16 @@ def exit():
     del (image)
 
 def update():
-    pass
-
+    global delayTime
+    delayTime = (delayTime +1) % 100
 def draw():
     global image
+    global delayTime
     clear_canvas()
     main_state.boy.draw()
     main_state.grass.draw()
-    image.draw(400, 300)
+    if(delayTime>50):
+        image.draw(400, 300)
     update_canvas()
 
 def handle_events():
