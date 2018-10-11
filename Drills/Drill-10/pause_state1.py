@@ -5,7 +5,8 @@ name = "PauseSate"
 image = None
 
 def enter():
-    pass
+    global image
+    image = load_image('pause.png')
 
 def exit():
     pass
