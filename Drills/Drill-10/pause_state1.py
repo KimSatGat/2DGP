@@ -9,7 +9,8 @@ def enter():
     image = load_image('pause.png')
 
 def exit():
-    pass
+    global image
+    del (image)
 
 def update():
     pass
