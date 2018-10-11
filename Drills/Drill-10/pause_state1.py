@@ -16,7 +16,11 @@ def update():
     pass
 
 def draw():
-    pass
+    global image
+    clear_canvas()
+    image.draw(400, 300)
+    update_canvas()
+
 def handle_events():
     pass
 
