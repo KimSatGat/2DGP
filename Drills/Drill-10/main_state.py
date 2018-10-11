@@ -5,7 +5,7 @@ import os
 from pico2d import *
 
 import game_framework
-import pause_state1
+import pause_state2
 import title_state
 
 name = "MainState"
@@ -65,7 +65,6 @@ def resume():
 
 
 def handle_events():
-    global isPause
     events = get_events()
     for event in events:
         if event.type == SDL_QUIT:
@@ -73,11 +72,10 @@ def handle_events():
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             game_framework.change_state(title_state)
         elif (event.type, event.key) == (SDL_KEYDOWN, SDLK_p):
-            game_framework.push_state(pause_state1)
+            game_framework.push_state(pause_state2)
 
 def update():
     boy.update()
-
 
 def draw():
     clear_canvas()
