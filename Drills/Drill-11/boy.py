@@ -134,7 +134,7 @@ class DashState:
     def do(boy):
         boy.frame = (boy.frame + 1) % 8
         boy.timer -= 1
-        boy.x += (boy.velocity * 2)
+        boy.x += (boy.velocity * 3)
         boy.x = clamp(25, boy.x, 1600 - 25)
         if boy.timer == 0:
             boy.add_event(DASH_TIMER)
@@ -172,8 +172,6 @@ class Boy:
         ball = Ball(self.x, self.y, self.dir * 3)
         game_world.add_object(ball, 1)
 
-
-
     def add_event(self, event):
         self.event_que.insert(0, event)
 
@@ -187,7 +185,6 @@ class Boy:
 
     def draw(self):
         self.cur_state.draw(self)
-
 
     def handle_event(self, event):
         if (event.type, event.key) in key_event_table:
