@@ -1,5 +1,6 @@
 import game_framework
 import random
+from ghost import Ghost
 from pico2d import *
 from math import *
 from ball import Ball
@@ -7,7 +8,6 @@ from ball import Ball
 import game_world
 
 timer = get_time()
-ghost = None
 
 # Boy Run Speed
 PIXEL_PER_METER = (10.0 / 0.3) # 10 pixel 30cm
@@ -16,19 +16,10 @@ RUN_SPEED_MPM = (RUN_SPEED_KMPH * 1000.0 / 60.0)
 RUN_SPEED_MPS = (RUN_SPEED_MPM / 60.0)
 RUN_SPEED_PPS = (RUN_SPEED_MPS * PIXEL_PER_METER)
 
-# Ghost Rotation Speed
-RADIAN_M = 3
-RADIAN_P = RADIAN_M * PIXEL_PER_METER
-ANGLE_PER_SECOND = 720
-angle = 270
-
-
 # Boy Action Speed
 TIME_PER_ACTION = 0.5
 ACTION_PER_TIME = 1.0 / TIME_PER_ACTION
 FRAMES_PER_ACTION = 8
-
-
 
 # Boy Event
 RIGHT_DOWN, LEFT_DOWN, RIGHT_UP, LEFT_UP, SLEEP_TIMER, SPACE = range(6)
@@ -113,34 +104,35 @@ class RunState:
         else:
             boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, boy.x, boy.y)
 
-
+ghost = None
 class SleepState:
-
 
     @staticmethod
     def enter(boy, event):
         boy.frame = 0
+        global ghost
+        ghost = Ghost()
+
 
     @staticmethod
     def exit(boy, event):
         pass
 
+
     @staticmethod
     def do(boy):
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
 
+
     @staticmethod
     def draw(boy):
-        global angle
         global ghost
-        ghost = load_image('animation_sheet.png')
+
         if boy.dir == 1:
             boy.image.clip_composite_draw(int(boy.frame) * 100, 300, 100, 100, 3.141592 / 2, '', boy.x - 25, boy.y - 25, 100, 100)
         else:
             boy.image.clip_composite_draw(int(boy.frame) * 100, 200, 100, 100, -3.141592 / 2, '', boy.x + 25, boy.y - 25, 100, 100)
-        ghost.clip_draw(int(boy.frame) * 100, 300, 100, 100, 800 + (RADIAN_P * cos(radians(angle))), 300 + (RADIAN_P * sin(radians(angle))))
-        angle += ANGLE_PER_SECOND * game_framework.frame_time
-        ghost.opacify(0.5)
+        ghost.draw()
 
 
 
