@@ -104,7 +104,7 @@ class RunState:
         else:
             boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, boy.x, boy.y)
 
-ghost = None
+
 class SleepState:
 
     @staticmethod
