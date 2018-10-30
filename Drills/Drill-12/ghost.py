@@ -24,6 +24,7 @@ class Ghost:
         self.x, self.y = 1600 // 2, 90
         # Boy is only once created, so instance image loading is fine
         self.image = load_image('animation_sheet.png')
+        self.image.opacify(0.5)
         self.angle = 270
         self.clone_angle = radians(90)
         self.dir = 1
@@ -35,6 +36,7 @@ class Ghost:
         if self.isClone:
             if (self.clone_angle < 0):
                 self.isClone = False
+
             self.image.clip_composite_draw(int(self.frame) * 100, 300, 100, 100, self.clone_angle, '', self.x - 25,
                                            self.y - 25, 100, 100)
             self.clone_angle -= CLONGE_ANGLE_PER_SECOND * game_framework.frame_time

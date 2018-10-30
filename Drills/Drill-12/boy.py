@@ -153,7 +153,7 @@ class Boy:
         self.x, self.y = 1600 // 2, 90
         # Boy is only once created, so instance image loading is fine
         self.image = load_image('animation_sheet.png')
-        self.font = load_font('ENCR10B.TTF', 16)
+        self.font = load_font('ENCR10B.TTF', 32)
         self.dir = 1
         self.velocity = 0
         self.frame = 0
