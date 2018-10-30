@@ -61,7 +61,7 @@ class IdleState:
         timer = get_time()
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
 
-        if timer >= 1:
+        if timer >= 10:
             boy.add_event(SLEEP_TIMER)
 
     @staticmethod
