@@ -161,7 +161,6 @@ class Boy:
         self.cur_state = IdleState
         self.cur_state.enter(self, None)
 
-
     def fire_ball(self):
         ball = Ball(self.x, self.y, self.dir*3)
         game_world.add_object(ball, 1)
