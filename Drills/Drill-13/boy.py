@@ -74,7 +74,7 @@ class WalkingState:
 
     @staticmethod
     def draw(boy):
-        cx, cy = boy.canvas_width//2, boy.canvas_height//2
+        cx, cy = boy.x - boy.bg.window_left, boy.y - boy.bg.window_bottom
 
         if boy.x_velocity > 0:
             boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, cx, cy)
@@ -141,7 +141,7 @@ class Boy:
 
     def draw(self):
         self.cur_state.draw(self)
-        self.font.draw(self.x - self.bg.window_left - 60, self.y - self.bg.window_bottom + 50, '(%5d, %5d)' % (self.x, self.y), (255, 255, 0))
+        self.font.draw(clamp(0, self.x - self.bg.window_left - 60, self.canvas_width), clamp(0, self.y - self.bg.window_bottom + 50, self.canvas_height), '(%5d, %5d)' % (self.x, self.y), (255, 255, 0))
 
     def handle_event(self, event):
         if (event.type, event.key) in key_event_table:
