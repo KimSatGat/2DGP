@@ -75,27 +75,27 @@ class WalkingState:
 
     @staticmethod
     def draw(boy):
-        cx, cy = boy.x - boy.bg.window_left, boy.y - boy.bg.window_bottom
+        boy.cx, boy.cy = boy.x - boy.bg.window_left, boy.y - boy.bg.window_bottom
 
         if boy.x_velocity > 0:
-            boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, cx, cy)
+            boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, boy.cx, boy.cy)
             boy.dir = 1
         elif boy.x_velocity < 0:
-            boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, cx, cy)
+            boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, boy.cx, boy.cy)
             boy.dir = -1
         else:
             # if boy x_velocity == 0
             if boy.y_velocity > 0 or boy.y_velocity < 0:
                 if boy.dir == 1:
-                    boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, cx, cy)
+                    boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, boy.cx, boy.cy)
                 else:
-                    boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, cx, cy)
+                    boy.image.clip_draw(int(boy.frame) * 100, 0, 100, 100, boy.cx, boy.cy)
             else:
                 # boy is idle
                 if boy.dir == 1:
-                    boy.image.clip_draw(int(boy.frame) * 100, 300, 100, 100, cx, cy)
+                    boy.image.clip_draw(int(boy.frame) * 100, 300, 100, 100, boy.cx, boy.cy)
                 else:
-                    boy.image.clip_draw(int(boy.frame) * 100, 200, 100, 100, cx, cy)
+                    boy.image.clip_draw(int(boy.frame) * 100, 200, 100, 100, boy.cx, boy.cy)
 
 
 next_state_table = {
@@ -119,9 +119,11 @@ class Boy:
         self.event_que = []
         self.cur_state = WalkingState
         self.cur_state.enter(self, None)
+        self.cx = 0
+        self.cy = 0
 
     def get_bb(self):
-        return self.x - 50, self.y - 50, self.x + 50, self.y + 50
+        return self.cx - 50, self.cy - 50, self.cx + 50, self.cy + 50
 
     def set_background(self, bg):
         self.bg = bg
@@ -141,7 +143,8 @@ class Boy:
 
     def draw(self):
         self.cur_state.draw(self)
-#        self.font.draw(self.x - self.bg.window_left - 60, self.y - self.bg.window_bottom + 50, '(%5d, %5d)' % (self.x, self.y), (255, 255, 0))
+        draw_rectangle(*self.get_bb())
+        self.font.draw(self.cx - 50, self.cy + 50, '(%5d, %5d)' % (self.x, self.y), (255, 255, 0))
 
     def handle_event(self, event):
         if (event.type, event.key) in key_event_table:

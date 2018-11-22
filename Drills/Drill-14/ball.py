@@ -22,7 +22,5 @@ class Ball:
         draw_rectangle(*self.get_bb())
 
     def update(self):
-        self.velocityX = main_state.boy.x_velocity
-        self.velocityY = main_state.boy.y_velocity
-        self.x -= self.velocityX * game_framework.frame_time
-        self.y -= self.velocityY * game_framework.frame_time
+        self.x -= main_state.boy.x_velocity * game_framework.frame_time
+        self.y -= main_state.boy.y_velocity * game_framework.frame_time

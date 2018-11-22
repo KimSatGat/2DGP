@@ -41,12 +41,19 @@ def enter():
     background = Background()
     game_world.add_object(background, 0)
 
-    global balls
-    balls = [Ball() for i in range(10)]
-    game_world.add_objects(balls, 1)
-
     background.set_center_object(boy)
     boy.set_background(background)
+
+    global balls
+    balls = [Ball() for i in range(100)]
+    game_world.add_objects(balls, 1)
+
+    for i in balls:
+        if collide(i, boy):
+            game_world.remove_object(i)
+
+
+
 
 
 
