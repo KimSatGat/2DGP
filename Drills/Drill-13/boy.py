@@ -34,7 +34,7 @@ key_event_table = {
 
 
 # Boy States
-
+t = range(0,1)
 class WalkingState:
 
     @staticmethod
@@ -66,9 +66,13 @@ class WalkingState:
 
     @staticmethod
     def do(boy):
+        global t
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % FRAMES_PER_ACTION
         boy.x += boy.x_velocity * game_framework.frame_time
         boy.y += boy.y_velocity * game_framework.frame_time
+
+        boy.x = clamp(25, boy.x, 1775*t+25)
+        boy.y = clamp(0, boy.y, boy.bg.w)
 
 
 
