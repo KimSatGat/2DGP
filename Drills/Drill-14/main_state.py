@@ -48,9 +48,6 @@ def enter():
     balls = [Ball() for i in range(100)]
     game_world.add_objects(balls, 1)
 
-    for i in balls:
-        if collide(i, boy):
-            game_world.remove_object(i)
 
 
 
@@ -85,7 +82,7 @@ def update():
     for ball in balls:
         if collide(boy, ball):
             balls.remove(ball)
-            # fill here
+            boy.ball_count += 1
             game_world.remove_object(ball)
 
 def draw():

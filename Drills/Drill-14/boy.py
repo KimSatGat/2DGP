@@ -121,9 +121,10 @@ class Boy:
         self.cur_state.enter(self, None)
         self.cx = 0
         self.cy = 0
+        self.ball_count = 0
 
     def get_bb(self):
-        return self.cx - 50, self.cy - 50, self.cx + 50, self.cy + 50
+        return self.cx - 25, self.cy - 40, self.cx + 25, self.cy + 40
 
     def set_background(self, bg):
         self.bg = bg
@@ -144,7 +145,7 @@ class Boy:
     def draw(self):
         self.cur_state.draw(self)
         draw_rectangle(*self.get_bb())
-        self.font.draw(self.cx - 50, self.cy + 50, '(%5d, %5d)' % (self.x, self.y), (255, 255, 0))
+        self.font.draw(self.cx - 5, self.cy + 50, '%d' % (self.ball_count), (255, 255, 0))
 
     def handle_event(self, event):
         if (event.type, event.key) in key_event_table:
