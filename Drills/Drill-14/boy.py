@@ -122,9 +122,15 @@ class Boy:
         self.cx = 0
         self.cy = 0
         self.ball_count = 0
+        self.eat_sound = load_wav('pickup.wav')
+        self.eat_sound.set_volume(32)
 
     def get_bb(self):
         return self.cx - 25, self.cy - 40, self.cx + 25, self.cy + 40
+
+    def eat(self, object):
+        self.eat_sound.play()
+
 
     def set_background(self, bg):
         self.bg = bg
