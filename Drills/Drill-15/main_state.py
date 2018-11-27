@@ -61,7 +61,6 @@ def handle_events():
         else:
             boy.handle_event(event)
 
-
 def update():
     for game_object in game_world.all_objects():
         game_object.update()
@@ -73,9 +72,6 @@ def update():
                 with open('rank_data.json', 'wt') as f:
                     json.dump(rank, f)
                 game_framework.change_state(rank_state)
-
-
-
 
 
 def draw():
