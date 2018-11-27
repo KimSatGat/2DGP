@@ -7,6 +7,7 @@ from pico2d import *
 import game_framework
 import game_world
 import world_build_state
+import rank_state
 from zombie import Zombie
 name = "MainState"
 
@@ -58,6 +59,9 @@ def handle_events():
 def update():
     for game_object in game_world.all_objects():
         game_object.update()
+        if isinstance(game_object, Zombie):
+            if collide(boy,game_object):
+                game_framework.change_state(rank_state)
 
 
 
@@ -67,9 +71,7 @@ def draw():
     clear_canvas()
     for game_object in game_world.all_objects():
         game_object.draw()
-        if isinstance(game_object, Zombie):
-            if collide(boy,game_object):
-                game_framework.change_state(world_build_state)
+
 
     update_canvas()
 
