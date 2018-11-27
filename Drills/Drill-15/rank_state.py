@@ -33,7 +33,8 @@ def draw():
     global final_rank
     clear_canvas()
     for a in range(0,10):
-        font.draw(600, 800 - (a * 30), str(final_rank[a]), (0, 0, 0))
+        font.draw(600, 800 - (a * 30),'#%d. ' %(a+1), (0, 0, 0))
+        font.draw(660, 800 - (a * 30), '%.2f'  % (final_rank[a]), (0, 0, 0))
 
     update_canvas()
 
