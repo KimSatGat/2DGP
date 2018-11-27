@@ -10,7 +10,8 @@ import world_build_state
 import rank_state
 from zombie import Zombie
 name = "MainState"
-
+rank = None
+final_rank = None
 
 def collide(a, b):
 
@@ -27,7 +28,12 @@ def collide(a, b):
 boy = None
 
 def enter():
-    # game world is prepared already in world_build_state
+    global rank
+
+    with open('rank_data.json', 'rt') as f:
+        rank = json.load(f)
+
+
     global boy
     boy = world_build_state.get_boy()
     pass
@@ -61,6 +67,11 @@ def update():
         game_object.update()
         if isinstance(game_object, Zombie):
             if collide(boy,game_object):
+                rank.append(round(boy.survival_time,2))
+                rank.sort()
+                rank.reverse()
+                with open('rank_data.json', 'wt') as f:
+                    json.dump(rank, f)
                 game_framework.change_state(rank_state)
 
 

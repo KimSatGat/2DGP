@@ -1,12 +1,20 @@
+import random
+import json
+import pickle
+import os
+
 from pico2d import *
 import game_framework
 import world_build_state
-
+import main_state
 name = "NameState"
 font = None
-
+final_rank = None
 def enter():
     global font
+    global final_rank
+    with open('rank_data.json', 'rt') as f:
+        final_rank = json.load(f)
     font = load_font('ENCR10B.TTF', 20)
 
 
@@ -22,8 +30,11 @@ def update():
 
 def draw():
     global font
+    global final_rank
     clear_canvas()
-    font.draw(600, 800, 'TEST', (0, 0, 0))
+    for a in range(0,10):
+        font.draw(600, 800 - (a * 30), str(final_rank[a]), (0, 0, 0))
+
     update_canvas()
 
 def exit():
